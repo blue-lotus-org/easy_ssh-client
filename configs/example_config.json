@@ -1,0 +1,49 @@
+[
+  {
+    "name": "production-server",
+    "host": "prod.example.com",
+    "user": "admin",
+    "port": "22",
+    "local_port": "1080",
+    "identity_file": "~/.ssh/id_rsa",
+    "auto_reconnect": true,
+    "reconnect_attempts": 10,
+    "reconnect_delay": 5,
+    "timeout": 30
+  },
+  {
+    "name": "development-server",
+    "host": "dev.example.com",
+    "user": "developer",
+    "port": "22",
+    "local_port": "1081",
+    "identity_file": "~/.ssh/id_dev",
+    "auto_reconnect": true,
+    "reconnect_attempts": 5,
+    "reconnect_delay": 3,
+    "timeout": 15,
+    "prefix": "-D 9090 -L 8080:localhost:80 -L 443:localhost:443"
+  },
+  {
+    "name": "backup-server",
+    "host": "backup.example.com",
+    "user": "backup",
+    "port": "2222",
+    "local_port": "1082",
+    "identity_file": "~/.ssh/id_backup",
+    "auto_reconnect": false,
+    "timeout": 60
+  },
+  {
+    "name": "testing-environment",
+    "host": "test.internal.local",
+    "user": "tester",
+    "port": "22",
+    "local_port": "1083",
+    "prefix": "-D 9091 -L 3000:localhost:3000",
+    "auto_reconnect": true,
+    "reconnect_attempts": 3,
+    "reconnect_delay": 2,
+    "timeout": 20
+  }
+]
