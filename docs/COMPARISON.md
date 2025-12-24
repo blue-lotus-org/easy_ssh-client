@@ -1,4 +1,5 @@
 # Project Comparison: Original vs Improved SSH VPN Client
+Original(main branch) vs Improved(secure branch)
 
 ## Overview
 
@@ -6,7 +7,7 @@ This document provides a comprehensive comparison between the original `easy_ssh
 
 ## 📊 Quick Comparison Summary
 
-| Aspect | Original | Improved | Status |
+| Aspect | Original(main) | Improved(secur) | Status |
 |--------|----------|----------|---------|
 | **Security Vulnerabilities** | 5 Critical | 0 Critical | ✅ **FIXED** |
 | **Code Quality** | 7/10 | 9/10 | ✅ **ENHANCED** |

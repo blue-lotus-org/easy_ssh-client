@@ -62,7 +62,7 @@ Based on a comprehensive security audit, this improved version addresses all cri
 ## 📁 Project Structure
 
 ```
-improved_ssh_client/
+secure-branch/
 ├── CMakeLists.txt              # Professional build system
 ├── include/                    # Header files
 │   ├── types.h                 # Common types and structures
@@ -351,7 +351,7 @@ MIT License - See LICENSE file for details
 ## 📞 Support
 
 - **Issues**: GitHub Issues
-- **Security**: security@example.com
+- **Security**: 
 - **Documentation**: See docs/ directory
 - **Community**: Discussions and forums
 
@@ -364,4 +364,4 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Built with security and robustness in mind by MiniMax Agent**
+**Built with security and robustness in mind by third-party Agent**

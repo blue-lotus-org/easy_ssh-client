@@ -389,8 +389,8 @@ The system supports configurable security policies:
 ## Security Contact
 
 For security-related issues or questions:
-- **Security Team**: security@minimax.example.com
-- **Bug Bounty**: bugbounty@minimax.example.com
+- **Security Team**: 
+- **Bug Bounty**: 
 - **Documentation**: See security docs in repository
 
 ## Conclusion

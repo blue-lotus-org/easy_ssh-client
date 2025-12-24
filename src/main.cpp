@@ -390,14 +390,14 @@ void SSHVPNApplication::printHelp() {
     std::cout << "  sshvpn status                 # Show all connection statuses" << std::endl;
     std::cout << "  sshvpn logs --follow          # Follow logs in real-time" << std::endl;
     std::cout << std::endl;
-    std::cout << "For more information, visit: https://github.com/minimax/sshvpn" << std::endl;
+    std::cout << "For more information, visit: https://github.com/blue-lotus-org/easy_ssh-client" << std::endl;
 }
 
 void SSHVPNApplication::printVersion() {
     std::cout << "SSH VPN Client v1.0.0" << std::endl;
     std::cout << "Secure SSH tunnel manager with enhanced security features" << std::endl;
     std::cout << "Built with C++17, libssh2, and modern security practices" << std::endl;
-    std::cout << "Author: MiniMax Agent" << std::endl;
+    std::cout << "Author: third-party Agent" << std::endl;
 }
 
 int SSHVPNApplication::handleListCommand() {
